@@ -1,0 +1,12 @@
+.swapdiv {
+    display: table;
+  }
+  .swapdiv .col-text {
+    display: table-header-group;
+    float: left;
+  }
+  .swapdiv .col-img {
+    display: table-footer-group;
+    text-align: right;
+    float: right;
+  }

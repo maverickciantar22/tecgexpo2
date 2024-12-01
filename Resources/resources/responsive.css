@@ -1,0 +1,32 @@
+/* Responsive formatting -------------------------------------------------------- */
+@media screen and (max-width: 530px) {
+    .unsub {
+      display: block;
+      padding: 8px;
+      margin-top: 14px;
+      border-radius: 6px;
+      background-color: #555555;
+      text-decoration: none !important;
+      font-weight: bold;
+    }
+    .col-img {
+      max-width: 100% !important;
+      text-align: left !important;
+    }
+    .col-img img {
+      max-width: 100px !important;
+    }
+    .col-text {
+      max-width: 100% !important;
+    }
+  }
+  @media screen and (min-width: 531px) {
+    .col-img {
+      max-width: 50% !important;
+    }
+    .col-text {
+      max-width: 50% !important;
+      padding: 20px 0;
+    }
+  }
+  /* End Responsive formatting ---------------------------------------------------- */

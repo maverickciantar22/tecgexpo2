@@ -1,0 +1,9 @@
+.unsub {
+    display: block;
+    padding: 8px;
+    margin-top: 14px;
+    border-radius: 6px;
+    background-color: #555555;
+    text-decoration: none !important;
+    font-weight: bold;
+  }
